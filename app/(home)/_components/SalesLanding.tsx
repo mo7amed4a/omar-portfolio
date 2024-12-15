@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export default function SalesLanding() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className=" bg-white mt-10">
       {/* Header with Live indicator */}
       {/* <header className="flex justify-between items-center p-4 md:p-6">
         <p className="text-gray-600 text-sm md:text-base">
@@ -16,7 +16,7 @@ export default function SalesLanding() {
       </header> */}
 
       {/* Main Content */}
-      <main className="flex gap-x-4 container mx-auto px-4 py-8 md:py-12">
+      <main className="flex gap-x-4 container lg:max-w-[80%] mx-auto px-4 py-8 md:py-12">
         <div className="grid md:grid-cols-2 gap-8 items-center w-full ">
           {/* Left Content */}
           <div className="space-y-6 order-2 md:order-1">
@@ -53,7 +53,7 @@ export default function SalesLanding() {
             </div>
           </div>
         </div>
-        <div className="text-center">
+        <div className="text-center hidden lg:block">
           <div className="text-secondary font-bold text-xl md:text-3xl border-b-2 border-secondary pb-1">
             Jul
           </div>

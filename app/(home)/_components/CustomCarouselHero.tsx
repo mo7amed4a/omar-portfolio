@@ -37,7 +37,7 @@ export function CustomCarouselHero({
   };
 
   return (
-    <div className="mx-auto w-full space-y-10 relative">
+    <div className="mx-auto w-full space-y-10 relative px-4">
       
       <Carousel
         setApi={setApi}
