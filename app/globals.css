@@ -70,3 +70,8 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+.container-app {
+  @apply container lg:max-w-[87%] px-4 mx-auto
+}

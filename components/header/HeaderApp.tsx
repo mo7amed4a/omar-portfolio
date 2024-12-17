@@ -12,7 +12,7 @@ export default function Component() {
       </section>
       <section className="border-t flex w-full shrink-0 justify-between items-center py-3 px-4 md:px-6">
         <Link href="#" className="mr-6 flex" prefetch={false}>
-          <MountainIcon className="h-6 w-6" />
+          <MountainIcon className="h-6 w-6 h-36" />
           <span className="sr-only">Acme Inc</span>
         </Link>
         <nav className="lg:me-auto hidden lg:flex gap-6">
